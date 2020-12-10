@@ -10,8 +10,8 @@
         <property name="hibernate.cache.use_query_cache">true</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="connection.url">jdbc:mysql://localhost:3306/DBname</property>
-        <property name="connection.username">username</property>
-        <property name="connection.password">password</property>
+        <property name="connection.username"></property>
+        <property name="connection.password"></property>
         <property name="cache.provider_class">org.hibernate.cache.EhCacheProvider</property>
         <mapping resource="User.hbm.xml" />
     </session-factory>
